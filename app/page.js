@@ -4,8 +4,8 @@ import { useState } from "react"
 
 export default function Home() {
 
- const [skaicius1, setSkaicius1] = useState("diena")
- const [skaicius2, setSkaicius2] = useState("laba")
+ const [skaicius1, setSkaicius1] = useState("Y")
+ const [skaicius2, setSkaicius2] = useState("X")
 
  function randomNumberInRange(min, max) {
   // 👇️ get number between min (inclusive) and max (inclusive)
